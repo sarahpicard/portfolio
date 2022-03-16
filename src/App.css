@@ -1,3 +1,11 @@
 div .greeting-head {
   text-align: center;
 }
+div .nav {
+  background-color: #ECC8AF;
+}
+div .social-icons {
+  flex: auto;
+  flex-direction: row;
+  
+}
