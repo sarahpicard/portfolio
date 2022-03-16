@@ -2,7 +2,9 @@ const Nav = () => {
   
   return(
     <div className="nav">
-      <h3>Im the nav!</h3>
+      <a href="/projects">Projects</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
     </div>
   )
 }

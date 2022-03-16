@@ -4,8 +4,7 @@ div .greeting-head {
 div .nav {
   background-color: #ECC8AF;
 }
-div .social-icons {
-  flex: auto;
-  flex-direction: row;
-  
+.social-icons {
+  margin: 1.8%;
 }
+
