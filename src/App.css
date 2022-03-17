@@ -8,3 +8,9 @@ div .nav {
   margin: 1.8%;
 }
 
+#headshot {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
