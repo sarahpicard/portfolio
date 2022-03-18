@@ -1,7 +1,7 @@
 const Nav = () => {
   
   return(
-    <div className="nav">
+    <div className="flex justify-end space-x-10 mr-4 py-6">
       <a href="/projects">Projects</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>

@@ -7,11 +7,11 @@ const Greeting = () => {
     <div className="container mx-auto block">
       <h1 className="text-5xl flex justify-center">Sarah A. Picard</h1>
       <p className="flex justify-center">Fullstack Software Developer</p>
-      <div className="social-button flex justify-center">
-        <a className="social-icons" href="https://www.linkedin.com/in/sarah-picard/">
+      <div className="flex justify-center">
+        <a href="https://www.linkedin.com/in/sarah-picard/">
           <FontAwesomeIcon icon={faLinkedin} size='2x' />
         </a>
-        <a className="social-icons" href="https://github.com/sarahpicard">
+        <a href="https://github.com/sarahpicard">
           <FontAwesomeIcon icon={faGithub} size='2x' />
         </a>
       </div>
