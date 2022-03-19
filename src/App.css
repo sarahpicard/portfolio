@@ -1,12 +1,19 @@
+body {
+  background-color: #eec7b9;
+  color: #495867;
+}
+
 .name-text {
   font-family: 'Belleza', sans-serif;
   font-weight: 500;
 }
 .role-text {
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 .nav-text {
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 #headshot {
@@ -15,3 +22,10 @@
   border-radius: 50%;
 }
 
+.home-nav-button {
+  margin-right: auto;
+  padding-left: 3rem;
+}
+.nav-bar-total {
+  background-color: #e7ad99;
+}
