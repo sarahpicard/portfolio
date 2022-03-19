@@ -9,5 +9,8 @@
 }
 .nav-bar-total a:hover {
   padding-bottom: 10px;
-  border-bottom: 2px solid #495867;
+  border-bottom: 2.5px solid #495867;
+}
+.active {
+  border-bottom: 2.5px solid #495867;
 }

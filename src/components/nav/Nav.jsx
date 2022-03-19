@@ -1,8 +1,12 @@
+import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
+
 import './Navbar.css'
 
 const Nav = () => {
-  
-  return(
+  const location = useLocation()
+
+  return (
     <div className="flex justify-end pr-12 py-8 text-3xl nav-bar-total">
       <div className="home-nav-button">
         <a href="/">SP</a>
