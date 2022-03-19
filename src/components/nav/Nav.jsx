@@ -1,20 +1,19 @@
 import { useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import './Navbar.css'
 
 const Nav = () => {
-  const location = useLocation()
 
   return (
     <div className="flex justify-end pr-12 py-8 text-3xl nav-bar-total">
       <div className="home-nav-button">
-        <a href="/">SP</a>
+        <NavLink to='/' activeClassName='active'>SP</NavLink>
       </div>
       <div className='space-x-10'>
-        <a href="/projects">Projects</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <NavLink to='/projects' activeClassName='active'>Projects</NavLink>
+        <NavLink to='/about' activeClassName='active'>About</NavLink>
+        <NavLink to='/contact' activeClassName='active'>Contact</NavLink>
       </div>
     </div>
   )
