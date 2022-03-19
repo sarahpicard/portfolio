@@ -11,10 +11,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
 }
-.nav-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 600;
-}
 
 #headshot {
   height: 180px;
@@ -22,10 +18,3 @@ body {
   border-radius: 50%;
 }
 
-.home-nav-button {
-  margin-right: auto;
-  padding-left: 3rem;
-}
-.nav-bar-total {
-  background-color: #e7ad99;
-}

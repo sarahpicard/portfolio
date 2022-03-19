@@ -1,0 +1,13 @@
+.home-nav-button {
+  margin-right: auto;
+  padding-left: 3rem;
+}
+.nav-bar-total {
+  background-color: #e7ad99;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+.nav-bar-total a:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #495867;
+}
