@@ -3,16 +3,17 @@
   padding-left: 3rem;
 }
 .nav-bar-total {
-  background-color: #e7ad99;
+  background-color: #495867;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  color: #faeae5;
 }
 .nav-bar-total a:hover {
   padding-bottom: 8px;
-  border-bottom: 2.5px solid #495867;
+  border-bottom: 2.5px solid #faeae5;
 }
 .active {
   padding-bottom: 8px;
-  border-bottom: 2.5px solid #495867;
+  border-bottom: 2.5px solid #faeae5;
 }
 

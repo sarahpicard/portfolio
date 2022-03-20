@@ -1,5 +1,5 @@
 body {
-  background-color: #f1d2c7;
+  background-color: #faeae5;
   color: #495867;
 }
 
@@ -14,4 +14,8 @@ body {
 
 .greeting-block {
   margin-top: 8%;
+  color: #c96c5c;
+}
+.social-links {
+  color: #495867
 }
