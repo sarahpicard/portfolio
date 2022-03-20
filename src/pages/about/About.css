@@ -8,9 +8,14 @@
 }
 .about-headline {
   font-family: 'Belleza', sans-serif;
+  font-size: 30px;
 }
 #headshot {
   height: 180px;
   width: 180px;
   border-radius: 50%;
+}
+.toolbox-headline {
+  font-family: 'Belleza', sans-serif;
+  font-size: 25px;
 }
