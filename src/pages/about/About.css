@@ -9,3 +9,8 @@
 .about-headline {
   font-family: 'Belleza', sans-serif;
 }
+#headshot {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}

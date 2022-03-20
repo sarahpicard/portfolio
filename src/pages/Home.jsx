@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Greeting = () => {
   return (
-    <div className="block mt-20 pt-20">
+    <div className="block pt-20 greeting-block">
       <h1 className="text-8xl flex justify-center name-text my-5">Sarah A. Picard</h1>
       <p className="flex justify-center role-text text-4xl mb-12">Fullstack Software Developer</p>
       <div className="flex justify-center space-x-9">

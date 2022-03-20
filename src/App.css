@@ -1,5 +1,5 @@
 body {
-  background-color: #eec7b9;
+  background-color: #f1d2c7;
   color: #495867;
 }
 
@@ -12,8 +12,6 @@ body {
   font-weight: 600;
 }
 
-#headshot {
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
+.greeting-block {
+  margin-top: 8%;
 }
