@@ -1,10 +1,9 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import './Navbar.css'
 
 const Nav = () => {
-
   return (
     <div className="flex justify-end pr-12 py-8 text-3xl nav-bar-total">
       <div className="home-nav-button">
@@ -20,3 +19,4 @@ const Nav = () => {
 }
 
 export default Nav
+
