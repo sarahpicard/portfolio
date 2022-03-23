@@ -5,14 +5,13 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
   return (
-    <div>
-      <h4>Im a contact form </h4>
-      <div className="footer">
+    <div className="flex justify-center">
+      <div className="footer block text-center">
         <h4>Let's get in touch.</h4>
-        <a className="footer-icons" href="https://www.linkedin.com/in/sarah-picard/">
+        <a className="footer-icons ml-8" href="https://www.linkedin.com/in/sarah-picard/">
           <FontAwesomeIcon icon={faLinkedin} size='2x' /> sarah-picard
         </a>
-        <a className="footer-icons" href="https://github.com/sarahpicard">
+        <a className="footer-icons px-12" href="https://github.com/sarahpicard">
           <FontAwesomeIcon icon={faGithub} size='2x' /> sarahpicard
         </a>
         <FontAwesomeIcon icon={faEnvelope} size='2x' /> sarahannrey225@gmail.com

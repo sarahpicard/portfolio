@@ -12,27 +12,27 @@ const About = () => {
       <div className="text-center mb-8 mt-4 toolbox-headline">
         <h2>Skills in my Toolbox...</h2>
       </div>
-        <div className="columns-4 w-8/12 mx-auto px-4 pl-12">
-          <h3 className="">Languages</h3>
+        <div className="columns-4 w-8/12 mx-auto px-4 pl-12 mb-12">
+          <h3>Languages</h3>
             <Badge name="CSS3" backgroundColor="#c18c5d"/>
             <Badge name="HTML5" backgroundColor="#495867"/>
             <Badge name="JavaScript" backgroundColor="#ce796b"/>
             <Badge name="Markdown"  backgroundColor="#e7ad99" className="break-after-column"/>
-          <h3 className="">Backend Technologies</h3>
+          <h3>Backend Technologies</h3>
             <Badge name="MongoDB" backgroundColor="#495867"/>
             <Badge name="Express" backgroundColor="#e7ad99"/>
             <Badge name="Node.js" backgroundColor="#c18c5d"/>
             <Badge name="NPM" backgroundColor="#ce796b"/>
             <Badge name="Postman" backgroundColor="#495867"/>
             <Badge name="Microsoft Azure" backgroundColor="#c18c5d" className="break-after-column"/>
-          <h3 className="">Version Control</h3>
+          <h3>Version Control</h3>
             <Badge name="Git" backgroundColor="#ce796b"/>
             <Badge name="GitHub" backgroundColor="#495867"/>
           <h3>Miscellaneous</h3>
             <Badge name="Heroku" backgroundColor="#e7ad99"/>
             <Badge name="JSON" backgroundColor="#c18c5d"/>
             <Badge name="Visual Studio Code" backgroundColor="#ce796b" className="break-after-column"/>
-          <h3 className="">Libraries & Frameworks</h3>
+          <h3>Libraries & Frameworks</h3>
             <Badge name="React" backgroundColor="#495867"/>
             <Badge name="React Router" backgroundColor="#C18c5d"/>
             <Badge name="jQuery" backgroundColor="#ce796b"/>

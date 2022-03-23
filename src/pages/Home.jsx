@@ -12,6 +12,7 @@ const Greeting = () => {
     config: { duration: 1000 },
   })
 
+  // useSpring and animated from react-spring used for h1 animation.
   return (
     <div className="block pt-20 greeting-block">
       <div className="text-8xl flex justify-center name-text my-5" onClick={() => toggle(!state)}>
