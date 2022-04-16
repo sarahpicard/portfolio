@@ -17,6 +17,7 @@ const About = () => {
         <Badge name="CSS3" backgroundColor="#c18c5d" />
         <Badge name="HTML5" backgroundColor="#495867" />
         <Badge name="JavaScript" backgroundColor="#ce796b" />
+        <Badge name="Python" backgroundColor="#c18c5d"/>
         <Badge name="Markdown" backgroundColor="#e7ad99" className="break-after-column" />
         <h3>Backend Technologies</h3>
         <Badge name="MongoDB" backgroundColor="#495867" />
@@ -24,6 +25,7 @@ const About = () => {
         <Badge name="Node.js" backgroundColor="#c18c5d" />
         <Badge name="NPM" backgroundColor="#ce796b" />
         <Badge name="Postman" backgroundColor="#495867" />
+        <Badge name="Flask" backgroundColor="#e7ad99"/>
         <Badge name="Microsoft Azure" backgroundColor="#c18c5d" className="break-after-column" />
         <h3>Version Control</h3>
         <Badge name="Git" backgroundColor="#ce796b" />
@@ -31,11 +33,13 @@ const About = () => {
         <h3>Miscellaneous</h3>
         <Badge name="Heroku" backgroundColor="#e7ad99" />
         <Badge name="JSON" backgroundColor="#c18c5d" />
+        <Badge name="Netlify" backgroundColor="#495867"/>
         <Badge name="Visual Studio Code" backgroundColor="#ce796b" className="break-after-column" />
         <h3>Libraries & Frameworks</h3>
         <Badge name="React" backgroundColor="#495867" />
         <Badge name="React Router" backgroundColor="#C18c5d" />
         <Badge name="jQuery" backgroundColor="#ce796b" />
+        <Badge name="Tailwind CSS" backgroundColor="#495867"/>
         <Badge name="Bootstrap" backgroundColor="#e7ad99" className="break-after-column" />
       </div>
     </div>
