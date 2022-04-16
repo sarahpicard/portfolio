@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="flex justify-center">
       <div className="footer block text-center">
-        <h4>Let's get in touch.</h4>
+        <h4 className="text-4xl">Let's get in touch.</h4>
         <a className="footer-icons ml-8" href="https://www.linkedin.com/in/sarah-picard/">
           <FontAwesomeIcon icon={faLinkedin} size='2x' /> sarah-picard
         </a>

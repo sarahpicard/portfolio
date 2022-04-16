@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 const Projects = () => {
   return (
     <div className='container mx-auto mt-12'>
-      <div className="mx-auto w-8/12 whole-project-container">
+      <div className="mx-auto w-8/12 mb-12">
         <h1 className='text-5xl'>ShOwCIAL</h1>
         <h2 className='italic text-sm'>A social platform for concert attendees</h2>
         <div className="float-left mr-5 mb-2 mt-2">
@@ -17,7 +17,7 @@ const Projects = () => {
           <p>For detailed instructions on using this application, please visit this <a className='in-text-links' href="https://github.com/sarahpicard/NConcert-front-end">GitHub Repository</a> (here you can also find detailed screenshots of all application functionality)</p>
         </div>
       </div>
-      <div className="mx-auto w-8/12 whole-project-container">
+      <div className="mx-auto w-8/12 mb-12">
         <h1 className="text-5xl">Pal Pilot</h1>
         <h2 className="italic text-sm">Pet management application</h2>
         <div className="float-left mr-5 mb-2 mt-2">
@@ -31,7 +31,7 @@ const Projects = () => {
           <p>For detailed instructions on using this application, please visit this <a className='in-text-links' href="https://github.com/sarahpicard/pal-pilot-react">GitHub Repository</a>(here you can also find detailed screenshots of all application functionality)</p>
         </div>
       </div>
-      <div className='w-8/12 mx-auto whole-project-container'>
+      <div className='w-8/12 mx-auto mb-12'>
         <h1 className='text-5xl'>IndexCRM</h1>
         <h2 className='italic text-sm'>A customer relationship management application</h2>
         <div className='float-left mr-5 mb-2 mt-2'>
