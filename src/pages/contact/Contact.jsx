@@ -7,14 +7,14 @@ const Contact = () => {
   return (
     <div className="flex justify-center">
       <div className="footer block text-center">
-        <h4 className="text-4xl">Let's get in touch.</h4>
-        <a className="footer-icons ml-8" href="https://www.linkedin.com/in/sarah-picard/">
+        <h4 className="text-4xl mb-12 mt-12">Let's get in touch.</h4>
+        <a className="footer-icons ml-8 text-2xl" href="https://www.linkedin.com/in/sarah-picard/">
           <FontAwesomeIcon icon={faLinkedin} size='2x' /> sarah-picard
         </a>
-        <a className="footer-icons px-12" href="https://github.com/sarahpicard">
+        <a className="footer-icons px-12 text-2xl" href="https://github.com/sarahpicard">
           <FontAwesomeIcon icon={faGithub} size='2x' /> sarahpicard
         </a>
-        <FontAwesomeIcon icon={faEnvelope} size='2x' /> sarahannrey225@gmail.com
+        <FontAwesomeIcon icon={faEnvelope} size='2x' /> <span className="text-2xl">sarahannrey225@gmail.com</span>
       </div>
     </div>
   )
