@@ -10,10 +10,10 @@
 }
 .nav-bar-total a:hover {
   padding-bottom: 8px;
-  border-bottom: 2.5px solid #faeae5;
+  border-bottom: 4px solid #faeae5;
 }
 .active {
   padding-bottom: 8px;
-  border-bottom: 2.5px solid #faeae5;
+  border-bottom: 4px solid #faeae5;
 }
 
