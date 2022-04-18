@@ -14,7 +14,7 @@ const Greeting = () => {
 
   // useSpring and animated from react-spring used for h1 animation.
   return (
-    <div className="block pt-20 greeting-block">
+    <div className="block pt-20 greeting-block h-screen">
       <div className="text-9xl flex justify-center name-text my-5" onClick={() => toggle(!state)}>
         <animated.div
         style={{
