@@ -15,7 +15,7 @@ const Greeting = () => {
   // useSpring and animated from react-spring used for h1 animation.
   return (
     <div className="block pt-20 greeting-block">
-      <div className="text-9xl flex justify-center name-text my-5" onClick={() => toggle(!state)}>
+      <div className="text-5xl flex justify-center name-text my-5 sm:text-6xl lg:text-9xl" onClick={() => toggle(!state)}>
         <animated.div
         style={{
           opacity: x.to({ range: [0, 1], output: [0.3, 1] }),
@@ -27,13 +27,13 @@ const Greeting = () => {
           Sarah A. Picard
         </animated.div>
       </div>
-      <p className="flex justify-center role-text text-5xl mb-12 mt-10">Fullstack Software Developer</p>
+      <p className="flex justify-center role-text text-2xl mb-12 mt-10 sm:text-3xl lg:text-5xl">Fullstack Software Developer</p>
       <div className="flex justify-center space-x-12 social-links">
         <a href="https://www.linkedin.com/in/sarah-picard/">
-          <FontAwesomeIcon icon={faLinkedin} size='3x' />
+          <FontAwesomeIcon icon={faLinkedin} size='2x' className="sm:h-8 lg:h-12"/>
         </a>
         <a href="https://github.com/sarahpicard">
-          <FontAwesomeIcon icon={faGithub} size='3x' />
+          <FontAwesomeIcon icon={faGithub} size='2x' className="sm:h-8 lg:h-12"/>
         </a>
       </div>
     </div>

@@ -4,8 +4,8 @@ import './Navbar.css'
 
 const Nav = () => {
   return (
-    <div className="flex justify-end pr-12 py-8 text-3xl nav-bar-total">
-      <div className="home-nav-button">
+    <div className="flex justify-end pr-12 py-8 text-lg nav-bar-total sm:text-2xl lg: text-3xl">
+      <div className="pl-10 mr-auto">
         <NavLink to='/' activeClassName='active'>SP</NavLink>
       </div>
       <div className='space-x-10'>
