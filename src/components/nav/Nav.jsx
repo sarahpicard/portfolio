@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Nav = () => {
   return (
-    <div className="flex justify-end pr-12 py-8 text-lg nav-bar-total sm:text-2xl lg: text-3xl">
+    <div className="flex justify-end pr-12 py-8 text-sm nav-bar-total sm:text-2xl lg: text-3xl">
       <div className="pl-10 mr-auto">
         <NavLink to='/' activeClassName='active'>SP</NavLink>
       </div>
